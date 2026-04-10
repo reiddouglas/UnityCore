@@ -2,7 +2,6 @@ using Assets.Scripts.Core.Managers.Base;
 using Assets.Scripts.Core.Managers.Interfaces;
 using System.IO;
 using UnityEngine;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Assets.Scripts.Systems.SaveSystem
 {
