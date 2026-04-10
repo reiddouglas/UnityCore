@@ -1,4 +1,4 @@
-﻿using Assets.Scripts.EventChannels;
+﻿using Assets.Scripts.Core.Events.Interfaces;
 using UnityEngine;
 using UnityEngine.Events;
 

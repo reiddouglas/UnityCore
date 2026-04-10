@@ -2,6 +2,7 @@ using Assets.Scripts.Core.Managers.Base;
 using Assets.Scripts.Core.Managers.Interfaces;
 using System.IO;
 using UnityEngine;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace Assets.Scripts.Systems.SaveSystem
 {
@@ -36,7 +37,7 @@ namespace Assets.Scripts.Systems.SaveSystem
 
             File.WriteAllText(GetSavePath(slot), json);
 
-            _logger.Log($"Game saved to {savePath}");
+            _logger.Log($"Game saved to {GetSavePath(slot)}");
         }
 
         /// <summary>
@@ -45,7 +46,7 @@ namespace Assets.Scripts.Systems.SaveSystem
         /// <param name="slot"></param>
         public void LoadGame(int slot)
         {
-            if (!File.Exists(savePath))
+            if (!File.Exists(GetSavePath(slot)))
             {
                 _logger.LogWarning("No save file found!");
                 return;
