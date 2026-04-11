@@ -6,7 +6,7 @@ using UnityEngine;
 namespace Assets.Scripts.Systems.SaveSystem
 {
     /// <summary>
-    /// In charge of saving and loading a <see cref="SaveData"/> object to file.
+    /// A global manager that controls saving & loading a <see cref="SaveData"/> object to file.
     /// </summary>
     public class SaveManager : BaseManager<SaveManager>, IManager
     {

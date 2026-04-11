@@ -5,10 +5,17 @@ using UnityEngine;
 
 namespace Assets.Scripts.Systems.SceneSystem
 {
+    /// <summary>
+    /// A global manager that controls loading new scenes.
+    /// </summary>
     public class SceneManager : BaseManager<SceneManager>, IManager
     {
         private bool isLoading;
 
+        /// <summary>
+        /// Loads a new scene and changes to it.
+        /// </summary>
+        /// <param name="sceneData"></param>
         public void LoadScene(SceneData sceneData)
         {
             if (isLoading) return;
