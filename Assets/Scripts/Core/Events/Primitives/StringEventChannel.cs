@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Assets.Scripts.Core.Events.Base;
+using UnityEngine;
 
 [CreateAssetMenu(
     fileName = "StringEventChannel",

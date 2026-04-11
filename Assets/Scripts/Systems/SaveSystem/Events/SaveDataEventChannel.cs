@@ -9,8 +9,4 @@ namespace Assets.Scripts.Systems.SaveSystem
     public class SaveDataEventChannel : BaseEventChannel<SaveData>
     {
     }
-
-    class SaveDataEventListener : BaseEventListener<SaveData>
-    {
-    }
 }
