@@ -1,3 +1,4 @@
+using Assets.Scripts.Core.Events.Base;
 using UnityEngine;
 
 [CreateAssetMenu(
