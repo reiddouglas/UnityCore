@@ -1,6 +1,6 @@
 using Assets.Scripts.Core.Events.Base;
 
-namespace Assets.Scripts.EventChannels.PrimitiveTypes.String
+namespace Assets.Scripts.Core.Events.Primitives
 {
     class StringEventListener : BaseEventListener<string>
     {

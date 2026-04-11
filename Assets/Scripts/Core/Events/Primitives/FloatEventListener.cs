@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts.Core.Events.Base;
 
-namespace Assets.Scripts.EventChannels.PrimitiveTypes.Float
+namespace Assets.Scripts.Core.Events.Primitives
 {
     class FloatEventListener : BaseEventListener<float>
     {

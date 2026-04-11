@@ -1,6 +1,6 @@
 ﻿using Assets.Scripts.Core.Events.Base;
 
-namespace Assets.Scripts.EventChannels.PrimitiveTypes.Double
+namespace Assets.Scripts.Core.Events.Primitives
 {
     class DoubleEventListener : BaseEventListener<double>
     {
