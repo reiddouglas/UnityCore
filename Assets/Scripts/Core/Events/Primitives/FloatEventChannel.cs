@@ -6,7 +6,7 @@ namespace Assets.Scripts.Core.Events.Primitives
     [CreateAssetMenu(
     fileName = "FloatEventChannel",
     menuName = "Events/Float Event Channel")]
-    public class BoolEventChannel : BaseEventChannel<float>
+    public class FloatEventChannel : BaseEventChannel<float>
     {
     }
 }
