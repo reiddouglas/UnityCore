@@ -1,7 +1,7 @@
 ﻿using Assets.Scripts.Core.Events.Base;
 using UnityEngine;
 
-namespace Assets.Scripts.Systems.SceneSystem
+namespace Assets.Scripts.Systems.SceneSystem.Events
 {
     [CreateAssetMenu(
     fileName = "SceneDataEventChannel",

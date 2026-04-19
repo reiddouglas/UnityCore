@@ -6,5 +6,8 @@ namespace Assets.Scripts.Systems.SceneSystem
     public class SceneData : ScriptableObject
     {
         public string sceneName;
+
+        [Header("Transitions")]
+        [SerializeField] public GameObject transitionPrefab;
     }
 }

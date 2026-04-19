@@ -2,7 +2,7 @@
 
 namespace Assets.Scripts.Systems.SceneSystem.Events
 {
-    class SceneDataEventListener : BaseEventListener<SceneData>
+    class TransitionPhaseEventListener : BaseEventListener<TransitionPhase>
     {
     }
 }
